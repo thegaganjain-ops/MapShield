@@ -135,7 +135,7 @@ class CustomFooter extends HTMLElement {
                     <h3 class="footer-heading">Contact</h3>
                     <div class="footer-links">
                         <a href="mailto:help@googlesavior.com" class="footer-link">help@googlesavior.com</a>
-                        <a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a>
+                        <a href="tel:+917987108907" class="footer-link">+91- 7987108907</a>
                         <a href="https://wa.me/7987108907" class="footer-link">WhatsApp: 7987108907</a>
                     </div>
                 </div>
