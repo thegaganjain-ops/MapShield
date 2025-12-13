@@ -1,147 +1,228 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MapShield – Google Maps Reinstatement & Verification Services</title>
-    <style>
-        :root {
-            --primary: #1a73e8;
-            --bg: #f2f6ff;
-            --card: #ffffffcc;
-            --radius: 14px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoogleSavior Pro | GBP Reinstatement Experts</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                        secondary: {
+                            50: '#f5f3ff',
+                            100: '#ede9fe',
+                            200: '#ddd6fe',
+                            300: '#c4b5fd',
+                            400: '#a78bfa',
+                            500: '#8b5cf6',
+                            600: '#7c3aed',
+                            700: '#6d28d9',
+                            800: '#5b21b6',
+                            900: '#4c1d95',
+                        }
+                    }
+                }
+            }
         }
-        * { box-sizing: border-box; }
-        body {
-            margin: 0;
-            font-family: 'Inter', Arial, sans-serif;
-            background: var(--bg);
-            color: #222;
-            line-height: 1.6;
-        }
-        header {
-            background: linear-gradient(135deg, #1a73e8, #3a8bff);
-            color: white;
-            text-align: center;
-            padding: 80px 20px;
-        }
-        header h1 {
-            font-size: 48px;
-            font-weight: 800;
-            margin-bottom: 10px;
-        }
-        header p {
-            font-size: 20px;
-            opacity: 0.9;
-        }
-        .cta-btn {
-            display: inline-block;
-            margin-top: 25px;
-            background: white;
-            color: var(--primary);
-            padding: 14px 26px;
-            border-radius: var(--radius);
-            font-weight: bold;
-            font-size: 18px;
-            text-decoration: none;
-            box-shadow: 0 4px 12px #0002;
-            transition: 0.2s ease;
-        }
-        .cta-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 18px #0003;
-        }
-        section {
-            max-width: 1100px;
-            margin: 40px auto;
-            background: white;
-            padding: 50px;
-            border-radius: var(--radius);
-            box-shadow: 0 6px 20px #0001;
-        }
-        h2 {
-            color: var(--primary);
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
-        }
-        .service-box {
-            background: var(--card);
-            padding: 25px;
-            border-radius: var(--radius);
-            backdrop-filter: blur(6px);
-            box-shadow: 0 4px 12px #0001;
-            transition: 0.2s;
-        }
-        .service-box:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 20px #0002;
-        }
-        footer {
-            text-align: center;
-            padding: 30px;
-            background: #1a73e8;
-            color: white;
-            margin-top: 50px;
-        }
-    </style>
+    </script>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+    <custom-navbar></custom-navbar>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-br from-primary-600 to-primary-800 text-white py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6">
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+                            Get Your Google Business Profile Reinstated — Fast & Legally
+                        </h1>
+                        <p class="text-xl text-primary-100 max-w-2xl">
+                            We help suspended or blocked Google Maps listings get reinstated with proper documentation and compliance.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="https://wa.me/7987108907" class="bg-white text-primary-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg shadow-lg transition-all duration-300 transform hover:scale-105">
+                                WhatsApp Now
+                            </a>
+                            <a href="#services" class="border-2 border-white text-white hover:bg-white hover:text-primary-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute -top-10 -left-10 w-32 h-32 bg-secondary-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                        <div class="absolute -bottom-10 -right-10 w-32 h-32 bg-primary-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-white rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
+                        <div class="relative bg-white/10 backdrop-blur-md rounded-3xl p-6 border border-white/20 shadow-xl">
+                            <div class="space-y-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                                </div>
+                                <div class="bg-black/30 rounded-xl p-4 font-mono text-sm">
+                                    <p class="text-green-400">$ Success: Business reinstated</p>
+                                    <p class="text-white">> Previous status: SUSPENDED</p>
+                                    <p class="text-white">> Resolution time: 3 days</p>
+                                    <p class="text-primary-300 mt-2">Contact us to unlock your GBP potential</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<header>
-    <h1>MapShield</h1>
-    <p>Google Maps Reinstatement • Verification Support • Local SEO Ranking</p>
-    <a href="https://wa.me/917987108907" class="cta-btn">Fix My Google Maps Listing</a>
-</header>
+        <!-- What We Fix Section -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">✔ What We Fix</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Common Google Business Profile issues we specialize in resolving</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-primary-200">
+                        <div class="bg-primary-100 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+                            <i data-feather="alert-circle" class="text-primary-600 w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Suspended Google Business Profile</h3>
+                        <p class="text-gray-600">Get your business back online after suspension.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-primary-200">
+                        <div class="bg-primary-100 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+                            <i data-feather="mail" class="text-primary-600 w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Verification Not Completed</h3>
+                        <p class="text-gray-600">Solve postcard verification issues permanently.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-primary-200">
+                        <div class="bg-primary-100 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+                            <i data-feather="map-pin" class="text-primary-600 w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Business Showing "Not Eligible"</h3>
+                        <p class="text-gray-600">Fix eligibility issues with proper documentation.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-primary-200">
+                        <div class="bg-primary-100 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+                            <i data-feather="eye-off" class="text-primary-600 w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">No visibility on Maps</h3>
+                        <p class="text-gray-600">Restore your business visibility on Google Maps.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section>
-    <h2>Why Your Business Needs This</h2>
-    <p>If your Google Maps listing is suspended, blocked, or not showing, your business instantly loses customers, calls, and visibility. We help restore AND grow your Google Business Profile with 100% Google-compliant methods.</p>
-</section>
+        <!-- Why Trust Us -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8 bg-primary-50" id="services">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">✔ Why Businesses Trust Us</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Our approach to Google Business Profile reinstatement delivers results</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                        <div class="text-5xl font-bold text-primary-600 mb-4">95%</div>
+                        <h3 class="text-xl font-semibold mb-2">Success Rate</h3>
+                        <p class="text-gray-600">Our proven methodology ensures high reinstatement success.</p>
+                    </div>
+                    <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                        <div class="text-5xl font-bold text-primary-600 mb-4">100%</div>
+                        <h3 class="text-xl font-semibold mb-2">Policy-Compliant</h3>
+                        <p class="text-gray-600">We only use approved methods that comply with Google's policies.</p>
+                    </div>
+                    <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                        <div class="text-5xl font-bold text-primary-600 mb-4">24-72h</div>
+                        <h3 class="text-xl font-semibold mb-2">Fast Documentation</h3>
+                        <p class="text-gray-600">Quick turnaround for preparing your reinstatement package.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section>
-    <h2>Our Services</h2>
-    <div class="services">
-        <div class="service-box">
-            <h3>Google Maps Reinstatement</h3>
-            <p>We fix suspended or blocked Google Business Profiles with full documentation and proper appeal handling.</p>
-        </div>
-        <div class="service-box">
-            <h3>Verification Support</h3>
-            <p>Postcard not arriving? Video verification failing? We guide you through a smooth verification process.</p>
-        </div>
-        <div class="service-box">
-            <h3>GBP Optimization</h3>
-            <p>Enhance ranking, visibility, trust signals, and customer engagement with professional optimization.</p>
-        </div>
-        <div class="service-box">
-            <h3>Monthly Maps Management</h3>
-            <p>Weekly posts, review management, ranking boosts, spam competitor removal, and ongoing SEO.</p>
-        </div>
-    </div>
-</section>
+        <!-- Our Services -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">✔ Our Services</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive solutions for your Google Business Profile needs</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gradient-to-b from-primary-50 to-white rounded-xl p-8 border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300">
+                        <div class="bg-primary-600 text-white w-14 h-14 rounded-lg flex items-center justify-center mb-6">
+                            <i data-feather="refresh-cw" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">GBP Reinstatement</h3>
+                        <p class="text-gray-600 mb-6">Professional reinstatement of suspended Google Business Profiles with proper documentation and compliance.</p>
+                        <a href="https://wa.me/7987108907" class="text-primary-600 font-semibold inline-flex items-center group">
+                            Get Started
+                            <i data-feather="arrow-right" class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                    <div class="bg-gradient-to-b from-primary-50 to-white rounded-xl p-8 border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300">
+                        <div class="bg-primary-600 text-white w-14 h-14 rounded-lg flex items-center justify-center mb-6">
+                            <i data-feather="check-circle" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Verification Support</h3>
+                        <p class="text-gray-600 mb-6">Complete assistance with all verification methods including postcard, video, and phone verification.</p>
+                        <a href="https://wa.me/7987108907" class="text-primary-600 font-semibold inline-flex items-center group">
+                            Get Verified
+                            <i data-feather="arrow-right" class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                    <div class="bg-gradient-to-b from-primary-50 to-white rounded-xl p-8 border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300">
+                        <div class="bg-primary-600 text-white w-14 h-14 rounded-lg flex items-center justify-center mb-6">
+                            <i data-feather="bar-chart-2" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Local SEO for Ranking Top 3</h3>
+                        <p class="text-gray-600 mb-6">Strategic optimization to get your business ranking in the top 3 local search results consistently.</p>
+                        <a href="https://wa.me/7987108907" class="text-primary-600 font-semibold inline-flex items-center group">
+                            Boost Rankings
+                            <i data-feather="arrow-right" class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section>
-    <h2>How It Works</h2>
-    <ol>
-        <li><strong>Free Audit</strong> – We check the exact reason your listing was suspended or blocked.</li><br>
-        <li><strong>Documentation</strong> – We collect required proofs and fix all compliance issues.</li><br>
-        <li><strong>Google Appeal</strong> – We prepare and submit a professional reinstatement request.</li><br>
-        <li><strong>Follow-Up</strong> – We communicate with Google until your profile is reinstated.</li><br>
-        <li><strong>Optimization</strong> – Optional ranking improvement & ongoing SEO.</li>
-    </ol>
-    <a href="https://wa.me/917987108907" class="cta-btn">Start Now</a>
-</section>
+        <!-- CTA Section -->
+        <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary-600 to-secondary-600 text-white">
+            <div class="max-w-7xl mx-auto text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-6">Ready to Restore Your Google Presence?</h2>
+                <p class="text-xl text-primary-100 max-w-3xl mx-auto mb-8">Don't let a suspended profile hurt your business. Contact us today for a free consultation.</p>
+                <a href="https://wa.me/7987108907" class="bg-white text-primary-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg shadow-lg inline-flex items-center transition-all duration-300 transform hover:scale-105">
+                    <i data-feather="message-circle" class="mr-2 w-5 h-5"></i>
+                    WhatsApp Us at 7987108907
+                </a>
+            </div>
+        </section>
+    </main>
 
-<footer>
-    <p>Contact: <strong>gaganjain0302@gmail.com</strong> • Bengaluru, India</p>
-    <p>© 2025 MapShield. All Rights Reserved.</p>
-</footer>
+    <custom-footer></custom-footer>
 
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
