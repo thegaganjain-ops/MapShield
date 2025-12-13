@@ -5,19 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MapShield – Google Maps Reinstatement & Verification Services</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
-        header { background: #1a73e8; color: white; padding: 40px 20px; text-align: center; }
-        header h1 { margin: 0; font-size: 36px; }
-        header p { font-size: 18px; margin-top: 10px; }
-        .cta-btn { background: #fff; color: #1a73e8; padding: 12px 22px; border-radius: 6px; text-decoration: none; font-weight: bold; }
-        section { padding: 50px 20px; max-width: 900px; margin: auto; background: white; margin-top: 20px; border-radius: 8px; }
-        h2 { color: #1a73e8; }
-        .services { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .service-box { background: #eef3ff; padding: 20px; border-radius: 8px; }
-        .pricing-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        .pricing-table th, .pricing-table td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-        .pricing-table th { background: #1a73e8; color: white; }
-        footer { text-align: center; padding: 20px; background: #1a73e8; color: white; margin-top: 30px; }
+        :root {
+            --primary: #1a73e8;
+            --bg: #f2f6ff;
+            --card: #ffffffcc;
+            --radius: 14px;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: 'Inter', Arial, sans-serif;
+            background: var(--bg);
+            color: #222;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1a73e8, #3a8bff);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        header h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+        .cta-btn {
+            display: inline-block;
+            margin-top: 25px;
+            background: white;
+            color: var(--primary);
+            padding: 14px 26px;
+            border-radius: var(--radius);
+            font-weight: bold;
+            font-size: 18px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px #0002;
+            transition: 0.2s ease;
+        }
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px #0003;
+        }
+        section {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            padding: 50px;
+            border-radius: var(--radius);
+            box-shadow: 0 6px 20px #0001;
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .service-box {
+            background: var(--card);
+            padding: 25px;
+            border-radius: var(--radius);
+            backdrop-filter: blur(6px);
+            box-shadow: 0 4px 12px #0001;
+            transition: 0.2s;
+        }
+        .service-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px #0002;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #1a73e8;
+            color: white;
+            margin-top: 50px;
+        }
     </style>
 </head>
 <body>
@@ -30,7 +101,7 @@
 
 <section>
     <h2>Why Your Business Needs This</h2>
-    <p>If your Google Maps listing is suspended, blocked, or not showing, your business immediately loses visibility, customers, and revenue. We help restore and grow your Google Business Profile with complete, Google-compliant solutions.</p>
+    <p>If your Google Maps listing is suspended, blocked, or not showing, your business instantly loses customers, calls, and visibility. We help restore AND grow your Google Business Profile with 100% Google-compliant methods.</p>
 </section>
 
 <section>
@@ -38,33 +109,31 @@
     <div class="services">
         <div class="service-box">
             <h3>Google Maps Reinstatement</h3>
-            <p>We fix suspended or blocked Google Business Profiles with proper documentation and compliance.</p>
+            <p>We fix suspended or blocked Google Business Profiles with full documentation and proper appeal handling.</p>
         </div>
         <div class="service-box">
             <h3>Verification Support</h3>
-            <p>Stuck at postcard or video verification? We help complete verification smoothly.</p>
+            <p>Postcard not arriving? Video verification failing? We guide you through a smooth verification process.</p>
         </div>
         <div class="service-box">
             <h3>GBP Optimization</h3>
-            <p>Improve ranking, visibility, and local search performance for your business.</p>
+            <p>Enhance ranking, visibility, trust signals, and customer engagement with professional optimization.</p>
         </div>
         <div class="service-box">
             <h3>Monthly Maps Management</h3>
-            <p>Weekly posts, reviews, ranking boosts, spam removal, and ongoing SEO.</p>
+            <p>Weekly posts, review management, ranking boosts, spam competitor removal, and ongoing SEO.</p>
         </div>
     </div>
 </section>
 
-
-
 <section>
     <h2>How It Works</h2>
     <ol>
-        <li>Free Audit – We check why your listing is suspended or blocked.</li>
-        <li>Documentation – We collect required business proofs.</li>
-        <li>Google Appeal – We file a professional reinstatement request.</li>
-        <li>Follow-Up – We communicate with Google until approval.</li>
-        <li>Optimization – Optional ranking improvement & SEO.</li>
+        <li><strong>Free Audit</strong> – We check the exact reason your listing was suspended or blocked.</li><br>
+        <li><strong>Documentation</strong> – We collect required proofs and fix all compliance issues.</li><br>
+        <li><strong>Google Appeal</strong> – We prepare and submit a professional reinstatement request.</li><br>
+        <li><strong>Follow-Up</strong> – We communicate with Google until your profile is reinstated.</li><br>
+        <li><strong>Optimization</strong> – Optional ranking improvement & ongoing SEO.</li>
     </ol>
     <a href="https://wa.me/917987108907" class="cta-btn">Start Now</a>
 </section>
