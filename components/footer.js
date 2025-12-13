@@ -125,7 +125,6 @@ class CustomFooter extends HTMLElement {
                     <h3 class="footer-heading">Company</h3>
                     <div class="footer-links">
                         <a href="about.html" class="footer-link">About Us</a>
-                        <a href="contact.html" class="footer-link">Contact</a>
                         <a href="privacy.html" class="footer-link">Privacy Policy</a>
                         <a href="terms.html" class="footer-link">Terms of Service</a>
                     </div>
@@ -134,7 +133,7 @@ class CustomFooter extends HTMLElement {
                 <div>
                     <h3 class="footer-heading">Contact</h3>
                     <div class="footer-links">
-                        <a href="mailto:help@googlesavior.com" class="footer-link">help@googlesavior.com</a>
+                        <a href="mailto:contact@mapshield.in" class="footer-link">contact@mapshield.in</a>
                         <a href="tel:+917987108907" class="footer-link">+91- 7987108907</a>
                         <a href="https://wa.me/7987108907" class="footer-link">WhatsApp: 7987108907</a>
                     </div>
@@ -142,7 +141,7 @@ class CustomFooter extends HTMLElement {
             </div>
             
             <div class="copyright">
-                &copy; ${new Date().getFullYear()} GoogleSavior Pro. All rights reserved.
+                &copy; ${new Date().getFullYear()} MapShield Services. All rights reserved.
             </div>
             
             <script>
