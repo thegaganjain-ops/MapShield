@@ -103,7 +103,7 @@ class CustomNavbar extends HTMLElement {
             <div class="navbar-container">
                 <a href="/" class="logo">
                     <i data-feather="shield"></i>
-                    GoogleSavior
+                    MapShield
                 </a>
                 
                 <button class="mobile-menu-btn">
